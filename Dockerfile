@@ -8,6 +8,6 @@ RUN pip install --no-cache-dir -r requirements.txt
 
 COPY . .
 
-EXPOSE 7860
+EXPOSE 7860:7860
 
-CMD ["python", "image_captioning_app.py"]
+CMD ["python", "local_image_caption.py"]
