@@ -1,10 +1,10 @@
 import unittest
 from unittest.mock import patch, mock_open
-from automate_url_captioner import *
+from url_images_caption import *
 
-class TestAutomateUrlCaptioner(unittest.TestCase):
+class TestUrlImagesCaption(unittest.TestCase):
     
-    @patch("automate_url_captioner.requests.get")
+    @patch("url_images_caption.requests.get")
     def test_url_image_captioning(self, mock_get):
         mock_get.return_value.ok = True
         mock_get.return_value.text = '<html><img src="https://example.com/image.jpg"></html>'

@@ -1,7 +1,7 @@
 import unittest
 from unittest.mock import patch, mock_open
 from PIL import Image
-from local_images_captioner import *
+from local_images_caption import *
 
 class TestLocalImagesCaptioner(unittest.TestCase):
     

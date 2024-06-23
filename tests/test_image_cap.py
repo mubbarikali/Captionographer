@@ -1,6 +1,6 @@
 import unittest
 from PIL import Image
-from image_cap import generate_caption
+from others.image_cap import generate_caption
 
 class TestImageCap(unittest.TestCase):
     

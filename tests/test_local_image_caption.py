@@ -1,6 +1,6 @@
 import unittest
 import numpy as np
-from image_captioning_app import caption_image
+from local_image_caption import caption_image
 
 class TestImageCaptioningApp(unittest.TestCase):
     
