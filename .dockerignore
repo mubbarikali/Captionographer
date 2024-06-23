@@ -1,0 +1,6 @@
+.capenv
+.git
+.gitignore
+__pycache__
+README.md
+tests
